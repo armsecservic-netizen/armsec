@@ -1,0 +1,18 @@
+{
+  "name": "armsec-site",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "ArmSec: security equipment catalog, AI consultant and CRM",
+  "main": "server/index.js",
+  "scripts": {
+    "start": "node server/index.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "express": "4.21.2",
+    "pg": "8.13.1"
+  }
+}
